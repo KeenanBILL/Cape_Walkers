@@ -211,8 +211,118 @@ p{
     color: orange;
 }
 
-.products
+.products .card{
+    border: none;
+    border-radius: none;
+}
 
 .products .card-body{
     border: 1px dashed rgb(175, 172, 172);
+}
+
+.head1{
+    font-weight: 400;
+    margin: 0;
+}
+
+.per1{
+    color: rgb(168, 162, 162);
+}
+
+.btnc{
+    height: 50px;
+    width: 50%;
+    outline: none;
+    border: none;
+    color: white;
+    background: rgb(20, 219, 20);
+    border-radius: 50px;
+    margin: 0 auto;
+    display: block;
+    transition: all 0.4s;
+}
+
+.btnc:hover{
+    outline: none;
+    border: 1px solid rgb(20, 219, 20);
+    color: rgb(20, 219, 20);
+    background: transparent;
+    border-radius: 50px;
+}
+
+.discount{
+    background: rgb(20, 219, 20);
+    color: white;
+}
+
+.dbtn{
+    height: 50px;
+    width: 75%;
+    outline: none;
+    border: none;
+    color: black;
+    background-color: white;
+    border-radius: 50px;
+    margin: 0 auto;
+    display: block;
+    font-weight: lighter;
+    transition: all 0.4s;
+}
+
+.dbtn:hover{
+    background-color: white;
+}
+
+.store h1{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.store p:nth-child(1){
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.store p:nth-child(2){
+    font-size: 18px;
+    color: grey;
+}
+
+.store i{
+    font-size: 45px;
+}
+
+.store .card{
+    border-radius: 0;
+    border: none;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.store .card:hover{
+    background-color: rgb(20, 219, 20);
+    color: white;
+}
+
+.store .card:hover .per1{
+    color: white;
+}
+
+.seller h1{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.seller i{
+    color: orange;
+}
+
+.seller .card{
+    border-radius: 0;
+    border: none;
+}
+
+.contact{
+    background:rgb(20, 219, 20);
+    color: white;
 }
