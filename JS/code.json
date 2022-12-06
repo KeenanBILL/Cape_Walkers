@@ -1,0 +1,23 @@
+{
+    "Fruits & Veg" :[
+        {
+            "product": 1,
+            "price": "R49,89",
+            "weight": "6 X 455g",
+            "fruit": "Kiwi"
+        },
+        {
+            "product": 2,
+            "price": "R35,99",
+            "weight": "21 X 300g",
+            "fruit": "Strawberry"
+        },
+        {
+            "product": 3,
+            "price": "R85,89",
+            "weight": "7 X 1kg",
+            "fruit": "Granadilla"
+        },
+
+    ]
+}

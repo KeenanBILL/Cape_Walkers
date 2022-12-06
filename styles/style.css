@@ -6,6 +6,7 @@
 
 p{
     font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
 }
 
 .navbar-brand img{
@@ -74,7 +75,7 @@ p{
 }
 
 .main{
-    background: url(./Img/fruit-veggie-challenge-uhr.jpg) no-repeat;
+    background: url(/Img/fruit-veggie-challenge-uhr.jpg) no-repeat;
     background-size: cover;
     height: auto;
     width: 100%;
@@ -138,6 +139,13 @@ p{
 .line{
     height: 6px;
     width: 30%;
+    background: rgb(20, 219, 20);
+    display: inline-block;
+}
+
+.line0 {
+    height: 10px;
+    width: 100%;
     background: rgb(20, 219, 20);
     display: inline-block;
 }
@@ -325,4 +333,21 @@ p{
 .contact{
     background:rgb(20, 219, 20);
     color: white;
+}
+
+.social-links i{
+    color: black;
+    height: 60px;
+    width: 50px;
+}
+
+.social-links i:hover{
+    color: rgb(20, 219, 20);
+    height: 50px;
+    width: 50px;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 2fr;
 }
