@@ -17,6 +17,48 @@
             "price": "R85,89",
             "weight": "7 X 1kg",
             "fruit": "Granadilla"
+        },
+        {
+            "product": 4,
+            "price": "R85,89",
+            "weight": "7 X 1kg",
+            "fruit": "Granadilla"
+        },
+        {
+            "product": 5,
+            "price": "R85,89",
+            "weight": "7 X 1kg",
+            "fruit": "Granadilla"
+        },
+        {
+            "product": 6,
+            "price": "R85,89",
+            "weight": "7 X 1kg",
+            "fruit": "Granadilla"
+        },
+        {
+            "product": 7,
+            "price": "R85,89",
+            "weight": "7 X 1kg",
+            "fruit": "Granadilla"
+        },
+        {
+            "product": 8,
+            "price": "R85,89",
+            "weight": "7 X 1kg",
+            "fruit": "Granadilla"
+        },
+        {
+            "product": 9,
+            "price": "R85,89",
+            "weight": "7 X 1kg",
+            "fruit": "Granadilla"
+        },
+        {
+            "product": 10,
+            "price": "R85,89",
+            "weight": "7 X 1kg",
+            "fruit": "Granadilla"
         }
 
     ]

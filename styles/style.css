@@ -1,4 +1,6 @@
-*{
+*,
+*::after,
+*::before {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -28,14 +30,14 @@ p{
     color: rgb(20, 219, 20)
 }
 
-.search{
+/* .search{
     height: 45px;
     outline: none;
     border: 2px solid rgb(20, 219, 20);
     background-color: transparent;
     border-radius: 20px 0px 0px 20px;
     border-right: none;
-}
+} */
 
 .btn1{
     height: 45px;
