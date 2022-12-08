@@ -1,0 +1,346 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cape_Walkers</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat&family=Righteous&display=swap">
+    <link rel="shortcut icon" href="/Img/Logo.png">
+
+    <script src="/JS/code.js" defer></script>
+
+    <script src="/JS/code.json" defer></script>
+
+</head>
+
+<body>
+
+    <!--Navbar Section-->
+
+    <nav class="navbar navbar-expand-lg pb-3">
+
+        <div class="container">
+
+            <a class="navbar-brand" href="#"><img src="/Img/Logo.png" alt="Cape_Walkers"></a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportContent">
+
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                    <li class="nav-item">
+
+                        <a class="nav-link" href="/index.html#home">Home</a>
+
+                    </li>
+
+                    <li class="nav-item">
+
+                        <a class="nav-link" href="/index.html#products">Products</a>
+
+                    </li>
+
+                    <li class="nav-item">
+
+                        <a class="nav-link" href="/HTML/admin.html">Admin</a>
+
+                    </li>
+
+                    <li class="nav-item">
+
+                        <a class="nav-link" href="/HTML/checkout.html">Checkout</a>
+
+                    </li>
+
+                </ul>
+
+            </div>
+            
+        </div>
+
+    </nav>
+
+    <section id="products" class="products bg-light">
+
+        <div class="container">
+
+            <div class="row text-center">
+
+                <div class="col-lg-6 m-auto">
+
+                    <p class="m-0">Unity</p>
+
+                    <h1>Our Products</h1>
+
+                    <div class="line my-4"></div>
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi explicabo eum fuga recusandae, illum, quod obcaecati fugiat at, repudiandae laborum corporis. Sint aperiam illo, magnam ullam modi ipsam minima at.</p>
+
+                </div>
+
+            </div>
+
+            <div class="row">
+
+                <div class="col-lg-4">
+
+                    <div class="card p-2">
+
+                        <div class="card-body">
+
+                            <div class="star">
+
+                                <span><i class="bi bi-star-fill"></i></span>
+
+                                <span><i class="bi bi-star-fill"></i></span>
+
+                                <span><i class="bi bi-star-fill"></i></span>
+
+                                <span><i class="bi bi-star-fill"></i></span>
+
+                            </div>
+
+                            <img src="/Img/Kiwi-Fruit-PNG-Transparent-Image.png" class="img-fluid pb-3" alt="Kiwi">
+
+                            <h4 class="head1">Kiwi</h4>
+
+                            <p class="per1">6 x 455g</p>
+
+                            <h4 class="head1">R49,89</h4>
+
+                            <button onclick="add()" class="btnc my-4">ADD TO CART</button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-lg-4">
+
+                    <div class="card p-2">
+
+                        <div class="card-body">
+
+                            <div class="star">
+
+                                <span><i class="bi bi-star-fill"></i></span>
+
+                                <span><i class="bi bi-star-fill"></i></span>
+
+                                <span><i class="bi bi-star-fill"></i></span>
+
+                                <span><i class="bi bi-star"></i></span>
+
+                            </div>
+
+                            <img src="/Img/strawberry-fruit-png-3.jpg" class="img-fluid pb-3" alt="Kiwi">
+
+                            <h4 class="head1">Strawberry</h4>
+
+                            <p class="per1">21 x 300g</p>
+
+                            <h4 class="head1">R35,99</h4>
+
+                            <button onclick="add()" class="btnc my-4">ADD TO CART</button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-lg-4">
+
+                    <div class="card p-2">
+
+                        <div class="card-body">
+
+                            <div class="star">
+
+                                <span><i class="bi bi-star-fill"></i></span>
+
+                                <span><i class="bi bi-star-fill"></i></span>
+
+                                <span><i class="bi bi-star"></i></span>
+
+                                <span><i class="bi bi-star"></i></span>
+
+                            </div>
+
+                            <img src="/Img/Granadilla.png" class="img-fluid pb-3" alt="Kiwi">
+
+                            <h4 class="head1">Granadilla</h4>
+
+                            <p class="per1">7 x 1kg</p>
+
+                            <h4 class="head1">R85,89</h4>
+
+                            <button onclick="add()" class="btnc my-4">ADD TO CART</button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-lg-4">
+
+                    <div class="card p-2">
+
+                        <div class="card-body">
+
+                            <div class="star">
+
+                                <span><i class="bi bi-star-fill"></i></span>
+
+                                <span><i class="bi bi-star-fill"></i></span>
+
+                                <span><i class="bi bi-star-fill"></i></span>
+
+                                <span><i class="bi bi-star-fill"></i></span>
+
+                            </div>
+
+                            <img src="/Img/Blueberry-PNG-Image-300x225.png" class="img-fluid pb-3" alt="Kiwi">
+
+                            <h4 class="head1">Kiwi</h4>
+
+                            <p class="per1">6 x 455g</p>
+
+                            <h4 class="head1">R49,89</h4>
+
+                            <button onclick="add()" class="btnc my-4">ADD TO CART</button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-lg-4">
+
+                    <div class="card p-2">
+
+                        <div class="card-body">
+
+                            <div class="star">
+
+                                <span><i class="bi bi-star-fill"></i></span>
+
+                                <span><i class="bi bi-star-fill"></i></span>
+
+                                <span><i class="bi bi-star-fill"></i></span>
+
+                                <span><i class="bi bi-star"></i></span>
+
+                            </div>
+
+                            <img src="/Img/bananas.jpg" class="img-fluid pb-3" alt="Kiwi">
+
+                            <h4 class="head1">Strawberry</h4>
+
+                            <p class="per1">21 x 300g</p>
+
+                            <h4 class="head1">R35,99</h4>
+
+                            <button onclick="add()" class="btnc my-4">ADD TO CART</button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-lg-4">
+
+                    <div class="card p-2">
+
+                        <div class="card-body">
+
+                            <div class="star">
+
+                                <span><i class="bi bi-star-fill"></i></span>
+
+                                <span><i class="bi bi-star-fill"></i></span>
+
+                                <span><i class="bi bi-star"></i></span>
+
+                                <span><i class="bi bi-star"></i></span>
+
+                            </div>
+
+                            <img src="/Img/dragon fruit.png" class="img-fluid pb-3" alt="Kiwi">
+
+                            <h4 class="head1">Granadilla</h4>
+
+                            <p class="per1">7 x 1kg</p>
+
+                            <h4 class="head1">R85,89</h4>
+
+                            <button onclick="add()" class="btnc my-4">ADD TO CART</button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </section>
+
+
+    <footer>
+
+        <div class="row">
+
+            <div class="col-lg-12 d-flex align-items-center">
+
+            <h6 class="m-auto">@Copyright Cape_Walkers. All rights reserved.</h6>
+
+            <div class="social-links align-items-center p-3">
+
+            <a href="https://www.facebook.com/keenanadrian.olivier" class="me-2"><i class="bi bi-facebook"></i></a>
+
+            <a href="https://www.instagram.com/keenan_olivier_" class="me-2"><i class="bi bi-instagram"></i></a>
+
+            <a href="https://linkedin.com/in/keenan-adrian-olivier-47a2b5212" class="me-2"><i class="bi bi-linkedin"></i></a>
+
+            <a href="https://github.com/KeenanBILL/KA_Billy.git" class="me-2"><i class="bi bi-github"></i></a>
+
+            </div>
+
+        </div>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>

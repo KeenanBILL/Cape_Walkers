@@ -145,13 +145,6 @@ p{
     display: inline-block;
 }
 
-.line0 {
-    height: 10px;
-    width: 100%;
-    background: rgb(20, 219, 20);
-    display: inline-block;
-}
-
 .about h1{
     font-size: 3rem;
     font-weight: bold;
