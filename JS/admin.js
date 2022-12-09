@@ -1,19 +1,20 @@
 let tbody = document.getElementById('fruitMenu');
 
-let produce = JSON.parse(localStorage.produce);
+// let produce = JSON.parse(localStorage.getItem('produceFruit'));
+let produce = JSON.parse(localStorage.produceFruit);
 
-produce.forEach(produce => {
+produce.forEach((item) => {
     try {
         tbody.innerHTML += `
         <tr>
-        <th scope = "row"><img src="${produce.image}" style = "width: 40px;"</th>
-        <td>${produce.fruit}</td>
-        <td>${produce.weight}</td>
-        <td>${produce.price}</td>
-        <td> <button id="addbtn" class="btnc my-4">ADD</button><button id="rembtn" class="btnc my-4">DELETE</button></td>
+        <th scope = "row"><img src="${item.image}" style = "width: 40px;"</th>
+        <td>${item.fruit}</td>
+        <td>${item.weight}</td>
+        <td>${item.price}</td>
+        <td> <button id="addbtn" class="btnc my-4">EDIT</button><button id="rembtn" class="btnc my-4">DELETE</button></td>
         </tr>
-        `
+        `    
     } catch(error) {
         console.log(error);
     }
-});
+})
