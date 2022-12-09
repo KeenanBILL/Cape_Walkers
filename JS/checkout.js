@@ -1,6 +1,4 @@
 let fruitsList = [];
 let checkout = [];
 
-const cpStorage = window.localStorage;
-
-function 
+const cpStorage = window.localStorage
