@@ -4,6 +4,10 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    overflow-x: hidden;
+}
+h1, h2, h3, h4, h5, h6, button{
+    overflow: hidden;
 }
 
 p{
@@ -29,15 +33,6 @@ p{
 .nav-item a:hover{
     color: rgb(20, 219, 20)
 }
-
-/* .search{
-    height: 45px;
-    outline: none;
-    border: 2px solid rgb(20, 219, 20);
-    background-color: transparent;
-    border-radius: 20px 0px 0px 20px;
-    border-right: none;
-} */
 
 .btn1{
     height: 45px;
@@ -81,11 +76,13 @@ p{
     background-size: cover;
     height: auto;
     width: 100%;
+    max-width: 100%;
 }
 
 .main h1{
     font-size: 5rem;
     font-family: 'Righteous', cursive;
+    max-width: 100%;
 }
 
 .main p:nth-child(1){
@@ -172,9 +169,10 @@ p{
     display: inline-block;
 }
 
-.welcome h1{
-    font-size: 2rem;
+.welcome-name{
+    font-size: 50px !important;
     font-weight: bold;
+    /* display: none !important; */
 }
 
 .welcome .card{
@@ -220,7 +218,7 @@ p{
 }
 
 .products .card-body{
-    border: 1px dashed rgb(175, 172, 172);
+    border: 1px solid rgb(175, 172, 172);
 }
 
 .head1{
@@ -332,8 +330,7 @@ p{
 
 .social-links i{
     color: black;
-    height: 60px;
-    width: 50px;
+
 }
 
 .social-links i:hover{
@@ -363,7 +360,13 @@ table td{
     border: solid 2px;
 }
 
-.row2 {
+.fruitStand {
     display: flex;
-    flex-direction: row;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    gap: 2;
+
+}
+.card {
+    width: 25rem;
 }
